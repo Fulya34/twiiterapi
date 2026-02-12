@@ -32,5 +32,4 @@ public class Tweet {
     private Instant createdAt = Instant.now();
 
     private Instant updatedAt;
-
 }

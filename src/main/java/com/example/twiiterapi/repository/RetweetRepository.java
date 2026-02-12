@@ -10,5 +10,4 @@ import java.util.Optional;
 public interface RetweetRepository extends JpaRepository<Retweet, Long> {
 
     Optional<Retweet> findByUserAndTweet(User user, Tweet tweet);
-
 }

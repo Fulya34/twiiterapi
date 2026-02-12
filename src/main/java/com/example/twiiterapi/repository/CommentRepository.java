@@ -10,5 +10,4 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
 
     // Bir tweete ait tüm yorumlar
     List<Comment> findAllByTweetOrderByCreatedAtAsc(Tweet tweet);
-
 }

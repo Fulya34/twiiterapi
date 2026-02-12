@@ -39,5 +39,4 @@ public class LikeController {
         likeService.dislikeTweet(user, tweet.get());
         return ResponseEntity.noContent().build();
     }
-
 }

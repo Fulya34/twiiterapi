@@ -40,5 +40,4 @@ public class LikeService {
     public boolean isLikedByUser(User user, Tweet tweet) {
         return likeRepository.findByUserAndTweet(user, tweet).isPresent();
     }
-
 }

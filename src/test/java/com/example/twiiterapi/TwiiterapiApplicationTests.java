@@ -9,5 +9,4 @@ class TwiiterapiApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

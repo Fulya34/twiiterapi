@@ -12,5 +12,4 @@ public interface TweetService {  // <- DİKKAT! class değil interface
     Optional<Tweet> getTweetById(Long id);
     Tweet updateTweet(Long id, String content);
     void deleteTweet(Long id);
-
 }

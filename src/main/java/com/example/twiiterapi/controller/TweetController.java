@@ -66,5 +66,4 @@ public class TweetController {
         tweetService.deleteTweet(existingTweet.get().getId());
         return ResponseEntity.noContent().build();
     }
-
 }

@@ -39,5 +39,4 @@ public class RetweetService {
         Optional<Retweet> existingRetweet = retweetRepository.findByUserAndTweet(user, tweet);
         existingRetweet.ifPresent(retweetRepository::delete);
     }
-
 }

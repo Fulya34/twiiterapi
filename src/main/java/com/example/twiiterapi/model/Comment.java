@@ -35,5 +35,4 @@ public class Comment {
     private Instant createdAt = Instant.now();
 
     private Instant updatedAt;
-
 }

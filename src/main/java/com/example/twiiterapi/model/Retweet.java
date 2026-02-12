@@ -28,5 +28,4 @@ public class Retweet {
 
     @Column(nullable = false, updatable = false)
     private Instant createdAt = Instant.now();
-
 }
