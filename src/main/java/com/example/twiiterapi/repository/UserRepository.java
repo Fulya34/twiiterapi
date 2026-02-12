@@ -14,4 +14,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     // Kullanıcı adı ile bulmak için (isteğe bağlı)
     Optional<User> findByUsername(String username);
+
 }

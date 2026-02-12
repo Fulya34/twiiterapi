@@ -31,4 +31,5 @@ public class User {
     private String password;
 
     private OffsetDateTime createdAt = OffsetDateTime.now(); // <-- EKLENDİ
+
 }

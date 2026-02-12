@@ -52,4 +52,5 @@ public class AuthController {
 
         return ResponseEntity.ok(new TokenResponse(token));
     }
+
 }

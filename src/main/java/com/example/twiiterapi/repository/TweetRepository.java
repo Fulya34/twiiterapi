@@ -12,4 +12,5 @@ public interface TweetRepository extends JpaRepository<Tweet, Long> {
 
     // User objesine göre tweetleri getir
     List<Tweet> findByUser(User user);
+
 }

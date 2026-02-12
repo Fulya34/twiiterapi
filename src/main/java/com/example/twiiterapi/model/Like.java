@@ -23,4 +23,5 @@ public class Like {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "tweet_id", nullable = false)
     private Tweet tweet;
+
 }
